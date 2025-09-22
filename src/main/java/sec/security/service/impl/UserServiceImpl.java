@@ -129,9 +129,9 @@ public class UserServiceImpl implements UserService {
                 }
                 return false;
             }
-            return null;
+            return false;
         }
-        return null;
+        return false;
     }
 
     @Override
